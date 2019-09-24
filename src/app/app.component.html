@@ -1,0 +1,7 @@
+<h1>Employee Management System</h1>
+<input [(ngModel)]="emp_id" type="text" name="id" placeholder="Enter id">
+<input [(ngModel)]="emp_name" type="text" name="name" placeholder="Enter name">
+<input [(ngModel)]="emp_dept"type="text" name="dept" placeholder="Enter Department">
+<button (click)=addEmployee()>Add Employee</button><br>
+<app-newapp-details></app-newapp-details>
+<app-newapp-list></app-newapp-list>
